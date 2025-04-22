@@ -1,24 +1,51 @@
-# Compiled class file
-*.class
+# ======================================
+# Eclipse
+# ======================================
+*.pydevproject
+.project
+.metadata/
+*.tmp
+*.bak
+*.swp
+.cproject
+.classpath
+.settings/
+bin/
+build/
 
-# Log file
+# ======================================
+# IntelliJ IDEA
+# ======================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Uncomment if you're using Android Studio (which is based on IntelliJ)
+# .gradle/
+# local.properties
+# .idea/libraries
+# .idea/modules.xml
+# .idea/workspace.xml
+# .idea/navEditor.xml
+# .idea/assetWizardSettings.xml
+# *.jks
+
+# ======================================
+# Maven
+# ======================================
+target/
+
+# ======================================
+# Gradle
+# ======================================
+.gradle/
+build/
+
+# ======================================
+# General
+# ======================================
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+*.*
