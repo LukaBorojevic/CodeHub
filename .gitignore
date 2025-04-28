@@ -1,19 +1,4 @@
 # ======================================
-# Eclipse
-# ======================================
-*.pydevproject
-.project
-.metadata/
-*.tmp
-*.bak
-*.swp
-.cproject
-.classpath
-.settings/
-bin/
-build/
-
-# ======================================
 # IntelliJ IDEA
 # ======================================
 .idea/
@@ -21,31 +6,3 @@ build/
 *.iml
 *.ipr
 out/
-
-# Uncomment if you're using Android Studio (which is based on IntelliJ)
-# .gradle/
-# local.properties
-# .idea/libraries
-# .idea/modules.xml
-# .idea/workspace.xml
-# .idea/navEditor.xml
-# .idea/assetWizardSettings.xml
-# *.jks
-
-# ======================================
-# Maven
-# ======================================
-target/
-
-# ======================================
-# Gradle
-# ======================================
-.gradle/
-build/
-
-# ======================================
-# General
-# ======================================
-*.log
-*.war
-*.*
