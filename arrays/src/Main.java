@@ -8,6 +8,9 @@ ArrayHelper helper = new ArrayHelper();
 
        helper.print(helper.calculateSum(numbers));
        helper.print(value);
+
+      int[] evenIndexElements = helper.getEvenIndexElements(numbers);
+      helper.printAllValues(evenIndexElements);
     }
 
 }

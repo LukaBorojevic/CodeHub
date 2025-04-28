@@ -20,4 +20,16 @@ public class ArrayHelper {
     public void print(int value){
         System.out.println(value);
     }
+    public int[] getEvenIndexElements(int[] array) {
+        int size = (array.length + 1) / 2; // only half the elements (rounding up)
+        int[] result = new int[size];
+
+        int j = 0;
+        for (int i = 0; i < array.length; i += 2) {
+            result[j] = array[i];
+            j++;
+        }
+
+        return result;
+    }
 }
